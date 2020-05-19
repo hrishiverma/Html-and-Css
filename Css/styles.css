@@ -1,0 +1,139 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+.oof {
+  position: relative;
+  background-color: #EAF6F6;
+  padding-top: 100px;
+}
+.middle-container{
+  background-color: #EAF6F6;
+  padding:  100px  0 10px 0;
+}
+
+.bottom-container{
+  background-color: #EAF6F6;
+  padding:  10px  0;
+}
+
+h1 {
+  color: #66BFBF ;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  line-height: 2;
+}
+
+h2 {
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+hr{
+  border: dotted grey 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 60px auto;
+
+}
+
+.para-intro {
+  width: 50%;
+  margin: auto;
+  line-height: 2;
+}
+
+.para-two {
+  text-align: justify;
+}
+
+.para {
+  color: #66BFBF ;
+  font-size: 20px;
+  font-weight: normal;
+  margin-top: 0;
+}
+
+.front-one {
+  width: 30%;
+  float: left;
+  margin-right: 20px;
+}
+
+.front-two {
+  width: 30%;
+  height: 150px;
+  float: right;
+  margin-left: 20px;
+}
+
+.img_pro {
+  border-radius: 50%;
+  padding-bottom: 10px;
+}
+
+.qwer {
+  text-decoration: underline;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.b-cloud {
+  position: absolute;
+  left: 250px;
+  height: 60px;
+  width: 120px;
+}
+
+.t-cloud {
+  position: absolute;
+  top: 30px;
+  right: 330px;
+  height: 60px;
+  width: 120px;
+}
+
+.myButton {
+  box-shadow: 0 10px 14px -7px #276873;
+  background: linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+  background-color: #599bb3;
+  border-radius: 8px;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 16px 32px;
+  text-decoration: none;
+  text-shadow: 0 1px 0 #3d768a;
+}
+
+.myButton:hover {
+  background: linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+  background-color: #408c99;
+}
+
+.myButton:active {
+  position: relative;
+  top: 1px;
+}
+
+.footer-link {
+  padding: 15px;
+  color: #11999E;
+}
